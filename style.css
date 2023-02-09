@@ -1,7 +1,9 @@
 /* Fonts
 font-family: 'Noto Serif Khojki', serif;
 font-family: 'Oswald', sans-serif; */
-
+body{
+    font-family: 'Oswald', sans-serif;
+}
 
 
 
@@ -43,4 +45,14 @@ ul a:hover{
   
 .footer-links a:hover {
     text-decoration: underline; 
+}
+
+.bandera{
+    max-height: 1.5em;
+    margin: 0 1em;
+}
+
+footer{
+    padding-bottom: 3em;
+    background-color: black;
 }
