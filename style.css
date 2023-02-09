@@ -2,31 +2,30 @@
 font-family: 'Noto Serif Khojki', serif;
 font-family: 'Oswald', sans-serif; */
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+
 
 
 
 
 /* tarjetas */
-.card-group{
-    background-color: rgb(232, 233, 234);
-    border-style: 5px solid black;
-    box-shadow: 5px 8px 12px black; ;
-}
-.card-body .card-title{
-    background-color: black;
-    text-align: center;
-    background-position: center;
+.p h1 h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    
 }
 
-.card-group h5{
-    font-size: 15px;
-    color:#ffff;
-    position: relative;
-    left: 75%;
-    background-color: black;
+
+.container{
+    margin-top: 8%;
+
+}
+
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+    transition: all 1.5s ease ;
+}
+.zoom:hover img{
+    transform: scale(1.5);
 }
